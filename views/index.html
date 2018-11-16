@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Chat Random</title>
+  </head>
+  <body>
+    <script src="/socket.io/socket.io.js"></script>
+    <section class="username-input-container">
+      <input class="username-input" placeholder="Please set a nickname before continuing" autofocus/>
+      <button id="send-username" type="button">Set nickname</button>
+    </section>
+    <section class="message-list">
+    </section>
+    <section class="message-input-container">
+      <input class="message-input" placeholder="Type your message here" />
+      <button id="send-message" type="button">Send</button>
+    </section>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>

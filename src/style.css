@@ -1,0 +1,42 @@
+* {
+	margin: 0; 
+	padding: 0; 
+	box-sizing: 
+	border-box;
+}
+
+body {
+	font: 13px Helvetica, Arial; 
+}
+
+.message-input-container {
+	position: fixed; 
+	bottom: 0; 
+	width: 100%;
+	visibility: hidden;
+}
+
+.username-input-container {
+	padding: 10px; 
+	width: 100%;
+}
+
+.message-input, .username-input, .username {
+	padding: 10px; 
+	width: 84%; 
+}
+
+.message-list {
+	position: relative;
+}
+
+.message {
+	padding: 5px;
+	margin: 2px 0 2px 15px;
+}
+
+button {
+	width: 15%;
+	background: skyblue; 
+	padding: 10px; 
+}
